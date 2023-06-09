@@ -2356,6 +2356,18 @@
             </children>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wrgs9AajEe6ktMD3WLacUA" x="6103" y="5813" width="10841" height="11180"/>
           </children>
+          <children xmi:type="notation:Shape" xmi:id="_kQsUkAavEe6ktMD3WLacUA" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>vedere se aggiungere controller sistema nell'architettura logica&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_kQvX4AavEe6ktMD3WLacUA" type="DiagramName">
+              <element xsi:nil="true"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_kQvX4QavEe6ktMD3WLacUA" type="Description">
+              <element xsi:nil="true"/>
+            </children>
+            <styles xmi:type="notation:TextStyle" xmi:id="_kQsUkQavEe6ktMD3WLacUA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_kQsUkgavEe6ktMD3WLacUA"/>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kQsUkwavEe6ktMD3WLacUA" x="1325" y="3907" width="4074" height="6297"/>
+          </children>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s_ufEQagEe6ktMD3WLacUA" x="951" y="-7291" width="29575" height="18515"/>
       </children>
@@ -2709,7 +2721,7 @@
             </children>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_44gq8QagEe6ktMD3WLacUA" x="23855" y="2326" width="28357" height="15974"/>
           </children>
-          <children xmi:type="notation:Shape" xmi:id="_Puj0oAasEe6ktMD3WLacUA" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>TODO:&lt;/p>&lt;p>evento speciale observer&lt;/p>&lt;p>&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
+          <children xmi:type="notation:Shape" xmi:id="_Puj0oAasEe6ktMD3WLacUA" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>TODO:&lt;/p>&lt;p>evento speciale observer&lt;/p>&lt;p>eventuali sottopackage per le funzionalità composte del sistema&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_Puj0pAasEe6ktMD3WLacUA" type="DiagramName">
               <element xsi:nil="true"/>
             </children>
