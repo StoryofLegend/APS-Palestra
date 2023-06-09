@@ -1,0 +1,6 @@
+// Fagnani Marco 879215
+contratto 					aggiungiElemento
+operazione 					aggiungiElemento(immagine: String, tipo: String, nome: string, prezzo: double)
+riferimento caso d'uso		Gestione merchandising
+precondizioni 				l'amministratore ha dichiarato di voler aggiungere un elemento per il merchandising
+postcondizoini				è stata creata un'istanza "e" di elemento, con tanto di attributi inizializzati

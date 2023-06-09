@@ -1,4 +1,0 @@
-operazione 					controlloData(dataInizio, dataFine)
-riferimento caso d'uso		Storico delle prenotazioni
-precondizioni 				l'amministratore ha dichiarato di voler visualizzare uno storico delle prenotazioni
-postcondizoini				viene convalidato l'input

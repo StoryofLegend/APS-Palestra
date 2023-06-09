@@ -1,0 +1,6 @@
+//Grimaldi Carmine 886292
+contratto					mostraRiepilogoOrdine
+operazione 					mostraRiepilogoOrdine()
+riferimento caso d'uso		Rinnova abbonamento
+precondizioni 				il cliente ha effettuato il rinnovo
+postcondizoini				--- 

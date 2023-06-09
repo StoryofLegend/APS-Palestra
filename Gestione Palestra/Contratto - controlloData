@@ -1,0 +1,8 @@
+// Borghi Cristina 886461
+contratto 					controlloData
+operazione 					controlloData(dataInizio: date, dataFine: date)
+riferimento caso d'uso		Storico delle prenotazioni
+precondizioni 				l'amministratore ha dichiarato di voler visualizzare uno storico delle prenotazioni
+							l'amministratore ha inserito i valori di "dataInizio" e "dataFine"
+postcondizoini				se dataInizio<dataAttuale, dataInizio<dataFine, dataFine<dataAttuale è stato ritornato true altrimenti è stato inviato un messaggio di errore
+

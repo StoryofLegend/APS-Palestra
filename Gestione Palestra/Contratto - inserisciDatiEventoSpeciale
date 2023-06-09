@@ -1,0 +1,6 @@
+// Kovacev Kristian 885839
+contratto 					inserisciDatiEventoSpeciale
+operazione 					inserisciDatiEventoSpeciale( tipo: String, specialGuest: String, prezzo: double, nome: String, descrizione: String, data: date)
+riferimento caso d'uso		Crea evento Speciale
+precondizioni 				è stata creata un'istanza "e" di EventoSpeciale
+postcondizoini				sono stati inizializzati tutti gli attributi di "e"

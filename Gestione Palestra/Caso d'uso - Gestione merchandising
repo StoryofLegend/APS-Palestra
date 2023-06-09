@@ -1,0 +1,22 @@
+//Grimaldi Carmine
+Nome caso d'uso:		Rinnova abbonamento
+Portata:				Sistema Palestra
+Livello:				Obiettivo Utente
+Attore primario:		Cliente
+Parti interessate e interessi:		Cliente: vuole rinnovare l’abbonamento per continuare ad usufruire delle attività della palestra
+Pre-condizioni:						-Il cliente ha effettuato il login
+									-l’abbonamento precedente è scaduto
+Post-condizioni:					Il sistema aggiorna la data di scadenza dell'abbonamento
+Scenario principale di successo:
+		1.Il cliente accede alla pagina "rinnovo abbonamento"
+		2.Il cliente seleziona il tipo di abbonamento desiderato tra quelli disponibili
+		3.il sistema effettua “Effettua pagamento”
+		4.Il sistema mostra il riepilogo dell'operazione
+		
+Estensioni:3a. I dati inseriti non sono validi
+			4a. Il sistema notifica che l'operazione non è andata a buon fine
+			5a. Il sistema annulla l'operazione
+	
+Frequenza di ripetizione:	Ogni volta che un cliente vuole rinnovare l’abbonamento
+
+ 

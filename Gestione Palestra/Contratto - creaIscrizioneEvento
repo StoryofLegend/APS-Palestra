@@ -1,0 +1,6 @@
+//Comotti Carlo Luca 885885
+contratto					creaIscrizioneEvento
+operazione 					creaIscrizioneEvento(e: EventoSpeciale, c: ClienteFedele)
+riferimento caso d'uso		Prenota evento speciale
+precondizioni 				deve esistere l'evento speciale "eventoSpeciale"
+postcondizoini				ClienteFedele "c" è stato associato all'EventoSpeciale "e"

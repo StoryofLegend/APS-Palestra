@@ -1,6 +1,7 @@
+//Borghi Cristina
 Nome caso d'uso:		storico delle presentazioni
 Portata:				Sistema Palestra
-Livello:				Obiettivo Utente
+Livello:				Obiettivo Sommario
 Attore primario:		Amministratore
 Parti interessate e interessi:		Amministratore: desidera visualizzare lo storico di prenotazioni in base a intervalli temporali o tipo i abbonamento/carnet di ingressi o tipologia di clienti
 Pre-condizioni:						L'amministratore deve aver effettuato il login
@@ -17,5 +18,7 @@ Estensioni:
  		 4a.1 il sistema notifica l'errore
   		 4a.2 l'amministratore modifica l'intervallo di tempo
 		
-Frequenza di ripetizione:		Nessun vincolo
+Frequenza di ripetizione:	Ogni volta che l’amministratore desidera osservare uno storico
+							Potrebbe essere illimitata
+
  

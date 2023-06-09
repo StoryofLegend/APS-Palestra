@@ -1,0 +1,37 @@
+//Comotti Carlo Luca
+Nome caso d'uso:		prenota evento speciale
+Portata:				Sistema Palestra
+Livello:				Obiettivo Utente
+Attore primario:		Cliente fedele
+Parti interessate e interessi:		Cliente fedele: vuole prenotare un evento speciale
+									Palestra: vuole tenere traccia delle prenotazioni
+Pre-condizioni:						Cliente fedele si è autenticato tramite login
+Post-condizioni:					Il cliente fedele ha prenotato un evento
+Scenario principale di successo:
+		1. L'utente (Cliente Fedele) dichiara di voler iscriversi ad un evento speciale
+		2. Il sistema verifica
+		registra la prenotazione all'evento indicato
+		3. Il sistema mostra al Cliente Fedele l'avvenuta prenotazione
+
+Estensioni:
+		 2a. I posti disponibili all'evento sono esauriti
+ 		  2a.1. Il sitema notifica il Cliente Fedele che i posti relativi all'evento sono esauriti.
+		  2a.2. Cliente fedele annulla l'operazione
+		 2b: Una prenotazione per un corso o per un evento è gia registrato per la fascia oraria dell'evento a cui si vuole iscrivere
+		  2b.1. Il sitema notifica il Cliente Fedele che ha già una prenotazione per un corso o per un evento
+		  2b.2. Cliente Fedele annulla l'operazione OPPURE effettua “annulla prenotazione corso” OPPURE effettua “annulla iscrizione evento”
+		 2c: Cliente fedele non è Cliente VIP
+		  2c.1. Il sistema richiede al Cliente Fedele un pagamento
+		  2c.2. Cliente Fedele effettua “effettua pagamento”
+		  2c.3a. Il sistema registra la prenotazione all'evento indicato, mostrando al Cliente Fedele l'avvenuta prenotazione
+		  2c.3b. Il pagamento è stato rifiutato
+		    2c.3b.1 il sistema notifica all’utente che il pagamento è stato rifiutato
+		    2c.3b.2 l’utente (Cliente Fedele) annulla l’operazione OPPURE ritenta il pagamento (2c.2)
+		 2d: L'evento è gia stato prenotato dall'utente (Cliente Fedele)
+		  2d.1. Il sitema notifica l'utente (Cliente Fedele) che si è già iscritto all'evento
+		  2d.2. L'utente (Cliente Fedele) annulla l'operazione
+		 
+Frequenza di ripetizione:	Ogni volta che l’utente (Cliente Fedele) desidera prenotare un evento speciale
+							Potrebbe essere illimitata
+
+ 
