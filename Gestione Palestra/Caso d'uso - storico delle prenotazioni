@@ -3,32 +3,19 @@ Portata:				Sistema Palestra
 Livello:				Obiettivo Utente
 Attore primario:		Amministratore
 Parti interessate e interessi:		Amministratore: desidera visualizzare lo storico di prenotazioni in base a intervalli temporali o tipo i abbonamento/carnet di ingressi o tipologia di clienti
-Pre-condizioni:				L'amministratore deve aver effettuato il login
-Post-condizioni:			L'amministratore ha visualizzato lo storico richiesto
+Pre-condizioni:						L'amministratore deve aver effettuato il login
+Post-condizioni:					L'amministratore ha visualizzato lo storico richiesto
 
 Scenario principale di successo:
-		1 L'amministratore dichiara di voler visiualizzare lo storico delle prenotazioni // selezione "visualizza storico prenotazioni"
-		2 il sistema richiede la base sul quale effettuare lo storico
-		3a l'amministratore seleziona "l'intervallo temporale"
-		 4a l'amministratore inserisce l'intervallo temporale desiderato
-		3b l'amministratore seleziona "tipo di abbonamento"
-		 4b l'amministratore inserisce il tipo di abbonamento desiderato
-		3c l'amministratore seleziona "tipologia di cliente"
-		 4c 'amministratore inserisce la tipologia di cliente desiderato
-		5 il sistema controlla i campi richiesti
-		6 il sistema mostra lo storico richiesto
+		1. L'amministratore dichiara di voler visiualizzare lo storico delle prenotazioni 
+		2. l'amministratore inserisce l'intervallo temporale, il tipo di abbonamento e la tipologia di cliente desiderato
+		3. il sistema controlla i campi richiesti
+		4. il sistema mostra lo storico richiesto
 
 Estensioni:
-		5a il sistema da errore perchè la data è futura
-		 5a.1 il sistema notifica l'errore
-		 5a.2 l'amministratore modifica l'intervallo di tempo
-		5b il sistema da errore perchè l'abbonamento richiesto non esiste
-		 5b.1 il sistema notifica l'errore
-		 5b.2 l'amministratore modifica l'abbonamento desiderato
-		5c il sistema da errore perchè la tipologia di cliente inserita non esiste
-		 5c.1 il sistema notifica l'errore
-		 5c.2 l'amministratore modifica la tipologia di cliente
-
-Punti di estensione:			(Nessuno?)
-Requisiti speciali:			---
+		4a. il sistema da errore perchè la data è futura
+ 		 4a.1 il sistema notifica l'errore
+  		 4a.2 l'amministratore modifica l'intervallo di tempo
+		
 Frequenza di ripetizione:		Nessun vincolo
+ 
