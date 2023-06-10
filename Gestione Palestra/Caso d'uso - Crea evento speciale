@@ -1,4 +1,4 @@
-//Kovacev Kristian
+//Kovacev Kristian 885839
 Nome caso d'uso:		crea evento speciale
 Portata:				Sistema Palestra
 Livello:				Obiettivo Utente
@@ -8,7 +8,7 @@ Pre-condizioni:						L’amministratore ha effettuato il login
 Post-condizioni:					È stato creato un evento speciale
 Scenario principale di successo:
 		1. L'amministratore dichiara al sistema di voler creare un evento speciale
-		2. Il sistema genera un form con i dati da inserire per l'evento: tipo, nome, descrizione, prezzo, special guest
+		2. Il sistema genera un form con i dati da inserire per l'evento: tipo, nome, descrizione, prezzo, special guest, data, postiDisponibili
 		3. L'amministratore riempie i campi richiesti e invia i dati
 		4. Il sistema crea l'evento speciale e effettua “Notifica evento speciale”
 		
